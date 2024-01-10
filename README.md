@@ -36,27 +36,22 @@ Use pip to install required packages:
 ```bash
 pip install nltk scikit-learn pandas gensim
 ```
-<br>
+<br />
 Run the Notebooks:
-<br>
-Open and run the Jupyter notebooks in the notebooks/ directory to understand each step of the sentiment analysis process.<br>
-Each notebook focuses on a specific aspect of sentiment analysis, including data preprocessing, model implementation, and evaluation.<br>
-Explore Code Files:<br>
-
-The code/ directory contains Python scripts for different models and data preprocessing techniques.<br>
-Execute the scripts to perform sentiment analysis on your datasets.<br>
-
+<br />
+Open and run the Jupyter notebooks in the notebooks/ directory to understand each step of the sentiment analysis process.<br />
+Each notebook focuses on a specific aspect of sentiment analysis, including data preprocessing, model implementation, and evaluation.<br />
 
 ## Data Preprocessing
 The code implements various techniques for data preprocessing, including tokenization, creating word frequency tables, TF-IDF transformations, and Word2Vec embeddings. The code/preprocessing.py script contains functions for these preprocessing steps.
 
 # Models Implemented
-**Naive Bayes** <br>
-Implementation of Multinomial Naive Bayes for sentiment analysis using word frequency and TF-IDF representations.<br>
-**Support Vector Machines(SVM)** <br>
-Implementation of SVM for sentiment analysis using word frequency, word occurrence, TF-IDF, and Word2Vec embeddings.<br>
-**Word2Vec Embeddings** <br>
-Word2Vec embeddings using Gensim to create word vectors for the text data.<br>
+**Naive Bayes** <br />
+Implementation of Multinomial Naive Bayes for sentiment analysis using word frequency and TF-IDF representations.<br />
+**Support Vector Machines(SVM)** <br />
+Implementation of SVM for sentiment analysis using word frequency, word occurrence, TF-IDF, and Word2Vec embeddings.<br />
+**Word2Vec Embeddings** <br />
+Word2Vec embeddings using Gensim to create word vectors for the text data.<br />
 # Results
 The results table provides the accuracy, precision, recall, and F1-score for each model 
 ```markdown
@@ -71,9 +66,9 @@ The results table provides the accuracy, precision, recall, and F1-score for eac
 | MaxEnt with TF-IDF           | 0.837    | 0.83      | 0.84   | 0.84     | 302     |
 | SVM using TF-IDF             | 0.823    | 0.83      | 0.82   | 0.82     | 302     |
 ```
-
+<br />
 # Contributing
 Contributions to improve this codebase are welcome! If you have suggestions, enhancements, or bug fixes, please create an issue or submit a pull request.
-
+<br />
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
