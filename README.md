@@ -48,11 +48,11 @@ Each notebook focuses on a specific aspect of sentiment analysis, including data
 The code implements various techniques for data preprocessing, including tokenization, creating word frequency tables, TF-IDF transformations, and Word2Vec embeddings. The code/preprocessing.py script contains functions for these preprocessing steps.
 
 # Models Implemented
-*Naive Bayes* <br />
+*Naive Bayes -* <br />
 Implementation of Multinomial Naive Bayes for sentiment analysis using word frequency and TF-IDF representations.<br />
-*Support Vector Machines(SVM)* <br />
+*Support Vector Machines(SVM) -* <br />
 Implementation of SVM for sentiment analysis using word frequency, word occurrence, TF-IDF, and Word2Vec embeddings.<br />
-*Word2Vec Embeddings* <br />
+*Word2Vec Embeddings -* <br />
 Word2Vec embeddings using Gensim to create word vectors for the text data.<br />
 # Results
 The results table provides the accuracy, precision, recall, and F1-score for each model <br />
