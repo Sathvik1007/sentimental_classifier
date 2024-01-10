@@ -26,11 +26,11 @@ Clone the Repository:
 ```bash
 git clone https://github.com/Sathvik1007/sentimental_classifier.git
 ```
-\newline
+\n 
 
 Install Dependencies:
 Ensure you have Python installed.
-<br>
+\n 
 Use pip to install required packages:
 ```bash
 pip install nltk scikit-learn pandas gensim
