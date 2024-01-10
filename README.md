@@ -15,9 +15,9 @@ To use this codebase, follow these steps:
 
 Clone the Repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/Sathvik1007/sentimental_classifier.git
+```
 Install Dependencies:
 Ensure you have Python installed. Use pip to install required packages:
 
