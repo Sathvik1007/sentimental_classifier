@@ -13,11 +13,12 @@ Sentiment analysis is a natural language processing task that involves determini
 # Dependencies
 **Python 3.x**
 **Libraries:**
-**NumPy**
-**pandas**
-**sci-kit learn**
-**NLTK**
-**Gensim** (this is optional)
+- **NumPy**
+- **pandas**
+- **sci-kit learn**
+- **NLTK**
+- **Gensim** (this is optional)
+  
 ## Usage
 To use this codebase, follow these steps:
 
@@ -26,11 +27,11 @@ Clone the Repository:
 ```bash
 git clone https://github.com/Sathvik1007/sentimental_classifier.git
 ```
-\n 
+
 
 Install Dependencies:
 Ensure you have Python installed.
-\n 
+
 Use pip to install required packages:
 ```bash
 pip install nltk scikit-learn pandas gensim
