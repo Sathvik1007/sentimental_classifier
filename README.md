@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/mfts/papermark/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
-  <a href="https://github.com/mfts/papermark/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-purple"></a>
+  <a href="[https://github.com/mfts/papermark/blob/main/LICENSE](https://github.com/Sathvik1007/sentimental_classifier/blob/main/LICENSE)"><img alt="License" src="https://img.shields.io/badge/license-MIT-purple"></a>
 </div>
 
 This repository contains Python code for performing sentiment analysis on text data using different models, such as Naive Bayes, Support Vector Machines (SVM), and Word2Vec embeddings trained on 700 positive and 700 negative review data from source <a href = https://www.cs.cornell.edu/people/pabo/-movie-review-data/>DATA </a> or it is available <a href = https://github.com/Sathvik1007/sentimental_classifier/blob/main/review_polarity.tar.gz>here</a>. The analysis includes different representations of the text data, including word frequency, word occurrence, TF-IDF (Term Frequency-Inverse Document Frequency), and Word2Vec embeddings.
