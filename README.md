@@ -69,12 +69,11 @@ The results table provides the accuracy, precision, recall, and F1-score for eac
 | SVM using TF-IDF             | 0.823    | 0.83      | 0.82   | 0.82     | 302     |
 ```
 <br />
-# Contributing
 
+# Contributing
 Contributions to improve this codebase are welcome! If you have suggestions, enhancements, or bug fixes, please create an issue or submit a pull request.
 <br />
 # License 
-<br />
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
