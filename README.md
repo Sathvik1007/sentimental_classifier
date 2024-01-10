@@ -1,4 +1,4 @@
-# Sentiment Analysis with Various Models(only unigrams)
+## Sentiment Analysis with Various Models(only unigrams)
 
 <div align="center">
   <a href="https://github.com/Sathvik1007/sentimental_classifier/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sathvik1007/sentimental_classifier"></a>
@@ -7,10 +7,19 @@
 
 This repository contains Python code for performing sentiment analysis on text data using different models, such as Naive Bayes, Support Vector Machines (SVM), and Word2Vec embeddings trained on 700 positive and 700 negative review data from source <a href = https://www.cs.cornell.edu/people/pabo/-movie-review-data/>DATA </a> or it is available <a href = https://github.com/Sathvik1007/sentimental_classifier/blob/main/review_polarity.tar.gz>here</a>. The analysis includes different representations of the text data, including word frequency, word occurrence, TF-IDF (Term Frequency-Inverse Document Frequency), and Word2Vec embeddings.
 
-# Introduction
+## Introduction
 Sentiment analysis is a natural language processing task that involves determining the sentiment polarity of a given text, classifying it as positive or negative. This repository provides code to perform sentiment analysis using various models and text representations.
 
-# Usage
+# Dependencies
+**Python 3.x**<br>
+Libraries:<br>
+&nbsp;&nbsp;**NumPy**
+&nbsp;&nbsp;**pandas**
+&nbsp;&nbsp;**sci-kit learn**
+&nbsp;&nbsp;**NLTK**
+&nbsp;&nbsp;**Gensim** (this is optional)<br>
+<br>
+## Usage
 To use this codebase, follow these steps:
 
 Clone the Repository:
@@ -18,49 +27,50 @@ Clone the Repository:
 ```bash
 git clone https://github.com/Sathvik1007/sentimental_classifier.git
 ```
+<br>
+
 Install Dependencies:
-Ensure you have Python installed. Use pip to install required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
+Ensure you have Python installed.
+<br>
+Use pip to install required packages:
+```bash
+pip install nltk scikit-learn pandas gensim
+```
+<br>
 Run the Notebooks:
+<br>
+Open and run the Jupyter notebooks in the notebooks/ directory to understand each step of the sentiment analysis process.<br>
+Each notebook focuses on a specific aspect of sentiment analysis, including data preprocessing, model implementation, and evaluation.<br>
+Explore Code Files:<br>
 
-Open and run the Jupyter notebooks in the notebooks/ directory to understand each step of the sentiment analysis process.
-Each notebook focuses on a specific aspect of sentiment analysis, including data preprocessing, model implementation, and evaluation.
-Explore Code Files:
+The code/ directory contains Python scripts for different models and data preprocessing techniques.<br>
+Execute the scripts to perform sentiment analysis on your datasets.<br>
 
-The code/ directory contains Python scripts for different models and data preprocessing techniques.
-Execute the scripts to perform sentiment analysis on your own datasets.
-File Structure
-The repository is structured as follows:
 
-code/: Contains Python scripts for different models and data preprocessing methods.
-data/: Holds sample datasets used for sentiment analysis.
-notebooks/: Jupyter notebooks explaining the step-by-step process.
-README.md: Overview of the repository and instructions.
-LICENSE: License information for the code.
-
-# Dependencies
-Python 3.x
-Libraries:
-NumPy
-pandas
-scikit-learn
-NLTK
-Gensim
-Data Preprocessing
+## Data Preprocessing
 The code implements various techniques for data preprocessing, including tokenization, creating word frequency tables, TF-IDF transformations, and Word2Vec embeddings. The code/preprocessing.py script contains functions for these preprocessing steps.
 
 # Models Implemented
-Naive Bayes
-Implementation of Multinomial Naive Bayes for sentiment analysis using word frequency and TF-IDF representations.
-Support Vector Machines (SVM)
-Implementation of SVM for sentiment analysis using word frequency, word occurrence, TF-IDF, and Word2Vec embeddings.
-Word2Vec Embeddings
-Word2Vec embeddings using Gensim to create word vectors for the text data.
+**Naive Bayes** <br>
+Implementation of Multinomial Naive Bayes for sentiment analysis using word frequency and TF-IDF representations.<br>
+**Support Vector Machines(SVM)** <br>
+Implementation of SVM for sentiment analysis using word frequency, word occurrence, TF-IDF, and Word2Vec embeddings.<br>
+**Word2Vec Embeddings** <br>
+Word2Vec embeddings using Gensim to create word vectors for the text data.<br>
 # Results
-The results table provides the accuracy, precision, recall, and F1-score for each model and text representation. However, it lacks information regarding the dataset used and the scoring metrics. To ensure clarity and transparency, please provide details about the dataset and the specific scoring metrics used to generate these results.
+The results table provides the accuracy, precision, recall, and F1-score for each model 
+```markdown
+| Model                        | Accuracy | Precision | Recall | F1-Score | Support |
+|------------------------------|----------|-----------|--------|----------|---------|
+| Naive Bayes with Freq        | 0.708    | 0.71      | 0.70   | 0.71     | 300     |
+| SVM using Freq               | 0.672    | 0.68      | 0.66   | 0.67     | 300     |
+| Naive Bayes with Word Vector | 0.842    | 0.84      | 0.84   | 0.84     | 302     |
+| MaxEnt with Word Vector      | 0.817    | 0.82      | 0.82   | 0.81     | 302     |
+| SVM using Word Vector        | 0.787    | 0.78      | 0.79   | 0.79     | 302     |
+| Naive Bayes with TF-IDF      | 0.833    | 0.83      | 0.83   | 0.83     | 302     |
+| MaxEnt with TF-IDF           | 0.837    | 0.83      | 0.84   | 0.84     | 302     |
+| SVM using TF-IDF             | 0.823    | 0.83      | 0.82   | 0.82     | 302     |
+```
 
 # Contributing
 Contributions to improve this codebase are welcome! If you have suggestions, enhancements, or bug fixes, please create an issue or submit a pull request.
