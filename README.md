@@ -12,6 +12,7 @@ Sentiment analysis is a natural language processing task that involves determini
 
 # Dependencies
 **Python 3.x**
+<br />
 **Libraries:**
 - **NumPy**
 - **pandas**
@@ -22,16 +23,16 @@ Sentiment analysis is a natural language processing task that involves determini
 ## Usage
 To use this codebase, follow these steps:
 
-Clone the Repository:
+**Clone the Repository:**
 
 ```bash
 git clone https://github.com/Sathvik1007/sentimental_classifier.git
 ```
 
 
-Install Dependencies:
+**Install Dependencies:**<br />
 Ensure you have Python installed.
-
+<br />
 Use pip to install required packages:
 ```bash
 pip install nltk scikit-learn pandas gensim
@@ -53,7 +54,7 @@ Implementation of SVM for sentiment analysis using word frequency, word occurren
 **Word2Vec Embeddings** <br />
 Word2Vec embeddings using Gensim to create word vectors for the text data.<br />
 # Results
-The results table provides the accuracy, precision, recall, and F1-score for each model 
+The results table provides the accuracy, precision, recall, and F1-score for each model <br />
 ```markdown
 | Model                        | Accuracy | Precision | Recall | F1-Score | Support |
 |------------------------------|----------|-----------|--------|----------|---------|
