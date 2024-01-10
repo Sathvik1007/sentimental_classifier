@@ -1,7 +1,7 @@
 # Sentiment Analysis with Various Models(only unigrams)
 
 <div align="center">
-  <a href="https://github.com/mfts/papermark/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
+  <a href="https://github.com/Sathvik1007/sentimental_classifier/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
   <a href="[https://github.com/mfts/papermark/blob/main/LICENSE](https://github.com/Sathvik1007/sentimental_classifier/blob/main/LICENSE)"><img alt="License" src="https://img.shields.io/badge/license-MIT-purple"></a>
 </div>
 
