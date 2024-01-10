@@ -12,7 +12,7 @@ Sentiment analysis is a natural language processing task that involves determini
 
 # Dependencies
 **Python 3.x**
-Libraries://
+Libraries:\\
 &nbsp;&nbsp;**NumPy**
 &nbsp;&nbsp;**pandas**
 &nbsp;&nbsp;**sci-kit learn**
