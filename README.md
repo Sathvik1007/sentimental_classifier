@@ -1,4 +1,4 @@
-## Sentiment Analysis with Various Models(only unigrams)
+## Sentiment Analysis with Various Models(only positive and negative unigrams)
 
 <div align="center">
   <a href="https://github.com/Sathvik1007/sentimental_classifier/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sathvik1007/sentimental_classifier"></a>
