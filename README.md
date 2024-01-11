@@ -13,7 +13,7 @@ This repository contains Python code for performing sentiment analysis on text d
 Sentiment analysis is a natural language processing task that involves determining the sentiment polarity of a given text, classifying it as positive or negative. This repository provides code to perform sentiment analysis using various models and text representations.
 
 # Dependencies
-**Python 3.x** <br />
+**Python** 
 **Libraries:** <br />
 - **NumPy**
 - **pandas**
